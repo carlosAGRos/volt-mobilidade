@@ -45,7 +45,7 @@ header {
     50%      { transform: scale(1.1); }
 }
 .navbar.bg-body-tertiary {
-    background-color: var(--grafite) !important;
+    background-color: var(--verde) !important;
 }
 .navbar-nav {
     display: flex;
@@ -92,6 +92,16 @@ main h2 {
 .card:hover {
     transform: translateY(-6px);
     box-shadow: 0 14px 28px rgba(29, 38, 48, 0.18);
+}
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+#Galeria .card-img-top {
+    object-fit: contain;
+    background-color: var(--branco);
+    padding: 0.5rem;
 }
 .table thead {
     --bs-table-bg: var(--grafite);
